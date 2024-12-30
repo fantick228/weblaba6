@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Cafe - Милий сайт</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Соцмережі бібліотеки -->
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script src="https://platform.twitter.com/widgets.js" async defer></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<header>
+  <h1>Cat Cafe у Львові</h1>
+</header>
+
+<main>
+  <!-- Карта -->
+  <section id="map-section">
+    <h2>Де ми знаходимося</h2>
+    <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d888.1411433047607!2d24.023946862590904!3d49.84183872520845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add794113bd07%3A0xdbdb1d992a052c2d!2sCat%20Cafe!5e0!3m2!1sru!2sua!4v1735579821140!5m2!1sru!2sua"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-cross-origin">
+    </iframe>
+  </section>
+
+  <!-- Відео -->
+  <section id="video-section">
+    <h2>Дивіться відео про наше кафе</h2>
+    <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9922PjSw13g?si=bOmDZrDXtUB-63HW"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Погодний інформер -->
+  <section id="weather-section">
+    <h2>Погода у Львові</h2>
+    <a href="//weather.i.ua/" target="_blank">
+      <img src="//f.i.ua/ip0_c10101_l0.png" border="0" alt="Погода у Львові">
+    </a>
+  </section>
+
+  <!-- Соціальні мережі -->
+  <section id="social-section">
+    <h2>Слідкуйте за нами</h2>
+    <div class="social-buttons">
+      <!-- Facebook -->
+      <div class="fb-like" data-href="https://www.facebook.com" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+
+      <!-- Twitter -->
+      <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Cat%20Cafe%20у%20Львові%20-%20чудове%20місце%20для%20відпочинку!" data-size="large">Tweet</a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/catcafelviv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="instagram-button">
+        <img src="instagram-icon.png" alt="Instagram Cat Cafe">
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 Cat Cafe. Усі права захищені.</p>
+</footer>
+</body>
+</html>
